@@ -56,7 +56,7 @@ export function AppSidebar({ onOpenDoc }: AppSidebarProps) {
       <div className="flex h-full flex-col">
         {/* Logo */}
         <div className="flex h-16 items-center gap-3 border-b border-sidebar-border px-6">
-          <img src="/logopsl.jpg" alt="PSL" className="h-9 w-9 rounded-lg object-contain bg-white" />
+          <img src="./logopsl.jpg" alt="PSL" className="h-9 w-9 rounded-lg object-contain bg-white" />
           <div>
             <h1 className="text-sm font-semibold text-sidebar-foreground">
               PSL
